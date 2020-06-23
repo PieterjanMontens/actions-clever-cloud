@@ -124,6 +124,9 @@ export default async function run({
     } else if (alias) {
       args.push('--alias', alias)
     }
+    
+    // Dirty hack, change this so it depends on parameter
+    args.push('--force')
 
     if (timeout) {
       let timeoutID: NodeJS.Timeout | undefined
