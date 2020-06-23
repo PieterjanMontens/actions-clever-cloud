@@ -28,4 +28,4 @@ inputs:
       but you will lose any deployment failure information.
 runs:
   using: docker
-  image: docker://47ng/actions-clever-cloud:latest
+  image: docker://berzemus/actions-clever-cloud:latest
